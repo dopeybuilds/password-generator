@@ -1,9 +1,31 @@
+<!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Happy+Monkey&family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1></h1>
         <script src="index.js"></script>
+        <div id="header">
+            <h1>Generate a <span class="highlight">random password</span></h1>
+                <div class="subheader">  
+                    <p>Never use an insecure password again.</p>
+                </div>
+        </div>
+        <div class="button-container">
+            <button class="generate-btn" onclick="generatePasswords()">Generate Password</button>
+        </div>
+        <div class="seperator">
+            <p>_____________________________________________________________</p>
+        </div>
+        <div id="password-container">
+            <div class="password-box">
+                <p id="password1"></p>
+            </div>
+            <div class="password-box">
+                <p id="password2"></p>
+            </div>
     </body>
 </html>
