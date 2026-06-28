@@ -1,9 +1,19 @@
 body {
     background-color: #1F2937;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.container {
     width: 550px;
     height: 550px;
 }
+
+
 
 #header {
     font-family: "Karla", sans-serif;
@@ -66,7 +76,7 @@ body {
     font-family: 'Karla', sans-serif;
     text-align: center;
     color: #10B981;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .highlight {
