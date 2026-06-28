@@ -11,6 +11,12 @@ function generatePassword() {
         password += characters[randomIndex];
     }
     return password;
+}
+
+function generatePasswords() {
     document.getElementById("password1").textContent = generatePassword();
     document.getElementById("password2").textContent = generatePassword();
 }
+
+let generateBtn = document.querySelector(".generate-btn");
+generateBtn.addEventListener("click", generatePasswords);
